@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-color: #88f6ee;
+}
+body {
+  background: url("../img/bg_3.jpg") no-repeat center center/cover;
+  font-family: "Roboto Slab", serif;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  width: 30%;
+  margin: 120px auto;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.heading h2 {
+  font-size: 2rem;
+  color: var(--main-color);
+}
+
+.heading hr {
+  height: 3px;
+  margin: 4px 0 10px 0;
+  width: 130px;
+  background-color: var(--main-color);
+  border-radius: 3px;
+}
+
+.myform {
+  display: flex;
+  flex-direction: column;
+}
+
+.email {
+  display: flex;
+  margin: 5px 0;
+  align-items: stretch;
+}
+
+.email img {
+  width: 30px;
+  filter: invert(1);
+}
+
+.email input {
+  margin: 0px 10px;
+  padding: 4px 12px;
+  color: var(--main-color);
+  font-size: 1.2rem;
+  border: none;
+  background: none;
+  outline: none;
+  font-family: "Roboto Slab", serif;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--main-color);
+  font-weight: bolder;
+}
+
+hr {
+  height: 1px;
+  background-color: var(--main-color);
+  width: 280px;
+}
+
+.btn {
+  padding: 10px 14px;
+  margin: 25px 0;
+  color: var(--main-color);
+  background: none;
+  outline: none;
+  border: 2px solid var(--main-color);
+  width: 150px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  box-shadow: inset 1px 1px 0.5px 2px red, inset -1px -1px 0.5px 2px blue;
+}

@@ -1,0 +1,13 @@
+@media screen and (max-width: 1300px) {
+        .header hr{
+            width: 10vw;
+        }
+
+        hr{
+            width: 15vw;
+        }
+
+        .btn{
+            width: 20vw;
+        }
+}
